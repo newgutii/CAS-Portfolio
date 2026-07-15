@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { ArrowRight, X } from 'lucide-react';
 import styles from './Experiences.module.css';
-import mixingConcreteImg from '../../assets/mixing_concrete.png';
+
+const mixingConcreteImg = '/Concrete.JPG';
 
 const experiencesData = [
   {
@@ -16,13 +17,13 @@ const experiencesData = [
   },
   {
     id: 2,
-    title: 'Organizing the School Art Exhibition',
-    type: 'Creativity & Service',
-    outcomes: '2, 4, 6',
-    image: 'https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?q=80&w=800&auto=format&fit=crop', // Placeholder Unsplash image
-    description: `I took on the role of lead curator for our school's annual art exhibition. This required extensive planning, communicating with artists, and designing the layout of the gallery to ensure a cohesive aesthetic experience.
+    title: 'Training and Doing the Inka Trail',
+    type: 'Activity',
+    outcomes: '1, 2, 4',
+    image: 'https://images.unsplash.com/photo-1517627043994-b991ae8f6b00?q=80&w=800&auto=format&fit=crop', // Temporary placeholder until photo is provided
+    description: `I embarked on the physical and mental challenge of completing the Inka Trail. This required months of rigorous training, stamina building, and preparation for high altitudes. 
     
-    This project developed my organizational skills and taught me how to handle unexpected challenges, like last-minute dropouts and lighting issues. It was incredibly rewarding to see my peers' creativity celebrated by the wider school community.`,
+    The trek itself pushed me to my absolute limits but reaching Machu Picchu made every grueling step worth it. This experience taught me resilience and the importance of thorough preparation when facing monumental physical challenges.`,
   },
   {
     id: 3,

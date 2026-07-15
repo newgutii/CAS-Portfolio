@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './AboutMe.module.css';
-import profilePhoto from '../../assets/profile_photo.png';
 
 const AboutMe = () => {
   return (
@@ -8,7 +7,7 @@ const AboutMe = () => {
       <div className="container">
         <div className={styles.content}>
           <div className={`${styles.imageWrapper} fade-in`}>
-            <img src={profilePhoto} alt="Emilio Gutierrez" className={styles.image} />
+            <img src="/Rock.JPG" alt="Emilio Gutierrez" className={styles.image} />
             <div className={styles.imageDecoration}></div>
           </div>
           <div className={`${styles.textContent} fade-in delay-200`}>
